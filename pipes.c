@@ -74,7 +74,6 @@ void pipe_handler(char argv[][MAXLINE], int argc) {
 			parser(command, k); // call parser to execute the sub-command
 		}
 				
-		// CLOSING DESCRIPTORS ON PARENT
 		if (i == 0){
 			close(filedes2[1]);
 		}
