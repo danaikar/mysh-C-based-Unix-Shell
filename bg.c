@@ -12,7 +12,7 @@ void bg(char args[][MAXLINE], int tokens) {
         
         // for each group of commands between '&', create  
         // a new array and execute them seperately
-		k = 0;
+	k = 0;
         int back = 0;
         
 		while (strcmp(args[j],"&") != 0) {
