@@ -72,7 +72,7 @@ int parser(char *line[], int token) {
     }
 
 
-    int stop = k;
+    int stop = k;  
     for (int i = 0; i < k; i++) {
         
         // check for special characters and call the appropriate function 
