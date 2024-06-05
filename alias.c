@@ -126,7 +126,6 @@ int alias(char *tokens[], int token) {
 }
 
 
-
 void replaceAlias(char *(*tokens_ref)[MAXTOKENS], int token) {
     
     for(int i = 0; i < token; i++) {
