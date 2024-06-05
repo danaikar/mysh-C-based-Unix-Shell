@@ -56,7 +56,6 @@ void output_redirection(char *args[], char newArray[][MAXLINE], int token, int *
 }
 
 
-
 void input_redirection(char *args[], char newArray[][MAXLINE], int token, int *i) {
 
     int fd = open(newArray[*i+1], O_RDONLY, 0);
