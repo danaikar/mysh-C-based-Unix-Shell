@@ -1,5 +1,16 @@
 
-# **Shell Command Handler**
+# ⚙️ **Shell Command Handler**
+
+## **Description**
+This project implements a **custom shell command handler** that can interpret and execute various commands, including:
+- **Basic shell commands** (`ls`, `cd`, `exit`, etc.)
+- **Background execution** (`&`)
+- **Input/Output redirection** (`<`, `>`, `>>`)
+- **Piping (`|`)** to chain multiple commands together
+
+Each feature is implemented with efficiency and flexibility in mind, allowing seamless interaction within the shell environment.
+
+---
 
 ## **Token Handler (`int tokenHandler(char *token[])`)**
 
